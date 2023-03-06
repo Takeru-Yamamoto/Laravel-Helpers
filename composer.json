@@ -1,0 +1,28 @@
+{
+    "name": "takeru-yamamoto/laravel-helpers",
+    "description": "My Customized Helpers for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "autoload": {
+        "files": [
+            "src/auth.php",
+            "src/log.php",
+            "src/session.php",
+            "src/text.php",
+            "src/useful.php",
+            "src/view.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Takeru Yamamoto",
+            "email": "yamamo9150@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.0",
+        "laravel/framework": ">=10.0"
+    },
+    "minimum-stability": "dev"
+}
